@@ -1,0 +1,55 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.center-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}      
+.gap {
+    gap: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.center a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: orange;
+}
+.center a:hover {
+    color: gray;
+}
+.profile {
+    width: 15%;
+    border-radius: 50%;
+}
+.heading{
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.paragraph {
+    width: 85%;
+    font-family: Kh Baphnom Meng Tola;
+}
+.image {
+    width: 20%;
+}
+.gallery {
+    gap: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.border th,td{
+    border: 2px solid rgb(255, 72, 6);
+}
+.border{
+    border-collapse: collapse;
+    text-align: center;
+    
+}
